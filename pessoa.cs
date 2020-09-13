@@ -33,7 +33,7 @@ class Pessoa {
     Console.WriteLine("Nome: {0}, idade: {1}, peso: {2}, altura: {3}", nome, idade, peso, altura);
     Console.WriteLine("---------NOVOS DADOS----------");
     Console.WriteLine("Nome:"+ nome);
-    Envelhecer(idade,1.6);
+    Envelhecer(idade,altura);
     Console.WriteLine("Nova Peso: " + Emagrecer(4,peso));
   
   
